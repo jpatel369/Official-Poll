@@ -34,7 +34,7 @@
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome user to our free polling app where you and your friends can answer or make polls!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kvb-de-Wyj">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to our polling app where you and your friends can make and answer polls!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kvb-de-Wyj">
                                                 <rect key="frame" x="0.0" y="73" width="300" height="62.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="300" id="RZn-D3-yVy"/>
@@ -64,7 +64,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="loginButtonTapped:" destination="lmw-84-ywX" eventType="touchUpInside" id="fcP-HL-2yy"/>
+                                    <action selector="loginButtonTapped:" destination="lmw-84-ywX" eventType="touchUpInside" id="io8-mU-LFs"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bar-chart-icon-63290" translatesAutoresizingMaskIntoConstraints="NO" id="02e-j7-wme">
@@ -86,7 +86,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="deq-Gj-CZs"/>
                     <connections>
-                        <outlet property="loginButton" destination="9ma-Tl-eeY" id="pAR-po-Qmc"/>
+                        <outlet property="loginButton" destination="9ma-Tl-eeY" id="AqN-bV-UQd"/>
                         <segue destination="ijC-9g-7DS" kind="show" identifier="toCreateUsername" id="itx-5X-BuI"/>
                     </connections>
                 </viewController>
@@ -134,7 +134,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="nextButtonTapped:" destination="ijC-9g-7DS" eventType="touchUpInside" id="5If-cV-MCE"/>
+                                    <action selector="nextButtonTapped:" destination="ijC-9g-7DS" eventType="touchUpInside" id="AfQ-ca-Vao"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -149,7 +149,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="nextButton" destination="ikB-Xi-pPS" id="7ZY-Mj-rbM"/>
+                        <outlet property="nextButton" destination="ikB-Xi-pPS" id="Okm-45-9WD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FXA-N3-2Cr" userLabel="First Responder" sceneMemberID="firstResponder"/>
